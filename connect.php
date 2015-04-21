@@ -5,6 +5,7 @@ if ($mysqli->connect_error) {
 	die('connect error('. $mysqli->connect_errno . ')' .$mysqli->connect_error);
 }
 else{
+//everything runs
 	echo "connection made";
 }
 
