@@ -14,9 +14,9 @@
 		  	?>
 		  	</ul>
 		  </div>
-		  <form class="add-new-task" autocomplete="off">
-		  	<input type="text" name="new-task" placeholder="Add new Item..."/>
-		  </form>
+		<form class="add-new-task" autocomplete="off">
+		  <input type="text" name="new-task" placeholder="Add new Item..."/>
+		</form>
 	</div>
 </body>
 </html>
