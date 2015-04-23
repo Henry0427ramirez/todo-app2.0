@@ -6,7 +6,7 @@ if ($mysqli->connect_error) {
 }
 else{
 //everything runs
-	echo "connection made";
+//	echo "connection made";
 }
 
 $mysqli->close();
