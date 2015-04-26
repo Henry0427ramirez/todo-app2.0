@@ -4,7 +4,7 @@
 
 <h1>Login</h1>
 
-<form method="POST" action="<?php echo $path . "controller/login-user.php"; ?>">
+<form method="POST" action="<?php echo $path . "/controller/login-user.php"; ?>">
     <div>
         <label for="username">Username: </label>
         <input type="text" name="username"/>
