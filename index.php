@@ -1,10 +1,23 @@
-<!DOCTYPE html>
+<?php  
+require_once (__DIR__ . "/model/config.php");
+?>
 <html>
 <head>
 	<title>Henry's 2.0 Todo List</title>
 <!--connecting to your files -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+<header>
+	<button type="buttton">
+		<a href=" <?php echo "register.php"?>">register</a>
+	</button>
+	<button type="buttton">
+		<a href=" <?php echo "login.php"?>">Login</a>
+	</button>
+	<button type="buttton">
+		<a href=" <?php echo "controller/logout-user.php"?>">Logout</a>
+	</button>
+</header>
 <body>
 	<div class="wrap">
 		<div class = "task-list">
