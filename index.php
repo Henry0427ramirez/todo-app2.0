@@ -3,13 +3,17 @@ require_once (__DIR__ . "/model/config.php");
 ?>
 <html>
 <head>
+   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content='width=320'>
 	<title>Henry's 2.0 Todo List</title>
 <!--connecting to your files -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <header>
 	<button type="buttton">
-		<a href=" <?php echo "register.php"?>">register</a>
+		<a href=" <?php echo "register.php"?>">register</a
 	</button>
 	<button type="buttton">
 		<a href=" <?php echo "login.php"?>">Login</a>
@@ -17,6 +21,10 @@ require_once (__DIR__ . "/model/config.php");
 	<button type="buttton">
 		<a href=" <?php echo "controller/logout-user.php"?>">Logout</a>
 	</button>
+	<audio controls>
+  <source src="music/$aturn-Clift-Hanger.mp3" type="audio/mpeg">
+  <source src="music/AWE-Crystals.mp3" type="audio/mpeg">
+</audio>
 </header>
 <body>
 	<div class="wrap">
@@ -50,6 +58,7 @@ require_once (__DIR__ . "/model/config.php");
 	</div>
 </body>
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"> </script>
 <script>
 	add_task(); //calling the add task function
 function add_task(){
